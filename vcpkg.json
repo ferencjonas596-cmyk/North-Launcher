@@ -1,0 +1,14 @@
+{
+  "name": "north-launcher",
+  "version": "1.0.0",
+  "dependencies": [
+    "curl",
+    "nlohmann-json",
+    "openssl",
+    "libzip",
+    {
+      "name": "qtbase",
+      "features": ["widgets"]
+    }
+  ]
+}
